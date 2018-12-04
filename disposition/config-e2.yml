@@ -6,11 +6,11 @@ spring:
       port: 27017
       database: customer
 disposition:
-	call-result:
-		translation:
-			OOCA : Answer
-			OOCB : DroppedCall
-			OOCD : WrongParty
+  call-result:
+    translation:
+      OOCA : Answer
+      OOCB : DroppedCall
+      OOCD : WrongParty
 logging:
   level:
     org.springframework.web: ERROR
